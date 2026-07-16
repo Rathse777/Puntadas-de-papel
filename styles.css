@@ -75,21 +75,17 @@ h1, h2, h3, h4, .logo-text {
     gap: 2rem;
 }
 
-@media (max-width: 480px) {
-    .store-container { 
-        margin: 1rem auto;
-        padding: 0 0.5rem;
-        gap: 1.5rem;
-    }
+@media (min-width: 992px) {
+    .store-container { grid-template-columns: 1.5fr 1fr; }
 }
 
-.section-title { color: var(--dark-pink); font-size: 1.4rem; margin-bottom: 1rem; text-align: center; }
-.products-grid { display: grid; grid-template-columns:1fr repeat(auto-fill, minmax(240px, 1fr)); gap: 15px; font-size: 1.2rem; }
+.section-title { color: var(--dark-pink); margin-bottom: 1.5rem; text-align: center; }
+.products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
 
 .product-card {
     background: var(--bg-white);
     border-radius: var(--radius);
-    padding: 12px;
+    padding: 15px;
     border: 2px solid var(--pastel-pink);
     transition: 0.3s ease;
     box-shadow: var(--shadow);
@@ -106,7 +102,7 @@ h1, h2, h3, h4, .logo-text {
 
 .product-img {
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 1rem;
@@ -131,12 +127,12 @@ h1, h2, h3, h4, .logo-text {
 .btn-add-cart:hover { background: var(--dark-pink); color: white; }
 
 /* ==========================================================================
-   CARRITO Y FORMULARIO
+   CARRITO REORGANIZADO CON OPCIÓN DE ELIMINAR
    ========================================================================== */
 .cart-section, .checkout-section {
     background: var(--bg-white);
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: var(--radius);
+    padding: 20px;
     margin-bottom: 20px;
     border: 2px solid var(--pastel-purple);
 }
@@ -174,7 +170,7 @@ h1, h2, h3, h4, .logo-text {
 .payment-receiver-info h3 { font-size: 1rem; margin-bottom: 10px; color: var(--dark-purple); }
 .payment-receiver-info p { font-size: 0.9rem; margin-bottom: 5px; }
 
-.checkout-form fieldset { border: 2px solid var(--soft-pink); padding: 10px; border-radius: 15px; margin-bottom: 15px; }
+.checkout-form fieldset { border: 2px solid var(--soft-pink); padding: 15px; border-radius: 15px; margin-bottom: 15px; }
 .checkout-form legend { padding: 0 10px; font-weight: 700; color: var(--dark-pink); }
 .form-group label { display: block; margin-bottom: 5px; font-size: 0.9rem; font-weight: 600; }
 .form-group input {
@@ -191,13 +187,13 @@ h1, h2, h3, h4, .logo-text {
 .btn-submit-order:hover { background: #be185d; }
 
 /* ==========================================================================
-   NUEVO: ESTILOS DEL CUADRO FLOTANTE (PRODUCT POP-OUT MODAL)
+   MODAL FLOTANTE DE DETALLES DEL PRODUCTO
    ========================================================================== */
 .product-popout {
     max-width: 800px !important;
-    width: 95% !important;
+    width: 90% !important;
     position: relative;
-    padding: 20px 15px !important;
+    padding: 30px !important;
     border-radius: var(--radius) !important;
     text-align: left !important;
 }
@@ -234,7 +230,7 @@ h1, h2, h3, h4, .logo-text {
 
 .popout-large-img {
     width: 100%;
-    height: 200px;
+    height: 320px;
     object-fit: cover;
     border-radius: 15px;
     border: 2px solid var(--pastel-pink);
@@ -269,24 +265,37 @@ h1, h2, h3, h4, .logo-text {
     text-transform: uppercase;
 }
 
-.popout-info h2 { font-size: 1.3rem; margin: 10px 0 5px 0; color: var(--text-color); }
-.popout-price { font-size: 1.2rem; font-weight: 700; color: var(--dark-pink); margin-bottom: 10px; }
-.popout-description-box { margin-bottom: 15px; background: var(--soft-pink); padding: 10px; border-radius: 15px;}
+.popout-info h2 { font-size: 1.6rem; margin: 10px 0 5px 0; color: var(--text-color); }
+.popout-price { font-size: 1.5rem; font-weight: 700; color: var(--dark-pink); margin-bottom: 15px; }
+.popout-description-box { margin-bottom: 20px; background: var(--soft-pink); padding: 15px; border-radius: 15px;}
 .popout-description-box h4 { font-size: 0.9rem; color: var(--dark-purple); margin-bottom: 5px; }
-.popout-description-box p { font-size: 0.85rem; line-height: 1.4; color: var(--text-color); }
+.popout-description-box p { font-size: 0.95rem; line-height: 1.4; color: var(--text-color); }
 
 /* ==========================================================================
-   MODAL GENERAL
+   MODAL GENERAL Y NUEVAS ACCIONES DE SEGURIDAD
    ========================================================================== */
 .modal-overlay {
     position: fixed; inset: 0; background: rgba(77, 29, 61, 0.6);
     display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 2000;
 }
-.modal-content { background: white; padding: 30px; border-radius: 30px; max-width: 450px; font-width: 100%; text-align: center; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); }
+.modal-content { background: white; padding: 30px; border-radius: 30px; max-width: 450px; width: 100%; text-align: center; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); }
 .receiver-data-modal { background: var(--soft-pink); padding: 15px; border-radius: 15px; margin: 20px 0; text-align: left; border: 2px solid var(--pastel-pink); }
-.btn-close-modal { background: var(--dark-purple); color: white; padding: 12px 30px; border-radius: 50px; border: none; font-weight: 700; cursor: pointer; transition: 0.3s; }
+
+.security-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-primary-modal { background: var(--dark-pink); color: white; padding: 12px 20px; border-radius: 50px; border: none; font-weight: 700; cursor: pointer; flex: 1; transition: 0.3s; }
+.btn-primary-modal:hover { background: #be185d; }
+
+.btn-secondary-modal { background: var(--pastel-purple); color: var(--dark-purple); padding: 12px 20px; border-radius: 50px; border: none; font-weight: 700; cursor: pointer; flex: 1; transition: 0.3s; }
+.btn-secondary-modal:hover { background: #e9d5ff; }
+
+.btn-close-modal { background: var(--dark-purple); color: white; padding: 12px 30px; border-radius: 50px; border: none; font-weight: 700; cursor: pointer; transition: 0.3s; width: 100%; }
 .btn-close-modal:hover { background: #581c87; }
-.modal-icon { font-size: 2rem; margin-bottom: 10px; }
+.modal-icon { font-size: 2.2rem; margin-bottom: 10px; }
 .hidden { display: none !important; }
 .security-actions {flex-direction: column; gap: 10px; display: flex; align-items: center; justify-content: center; margin-top: 15px;}
 .btn-primary-modal, .btn-secondary-modal { width: 100%; padding: 10px; border-radius: 50px; border: none; font-weight: 700; cursor: pointer; transition: 0.3s; }
