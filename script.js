@@ -2,7 +2,7 @@
 const PRODUCTS = [
     {
         id: 1,
-        name: "Guantes de hueyas de gatito tejidos",
+        name: "Guantes de huellas de gatito tejidos",
         price: 6.00,
         category: "Atuendos a Crochet",
         description: "Prenda de punto suave y elástica de excelente calce. Ajustable en la espalda, perfecta para climas frescos o looks veraniegos coquetos.",
