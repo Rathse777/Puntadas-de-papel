@@ -8,8 +8,8 @@ const PRODUCTS = [
         description: "Organiza tus semanas de la forma más linda. Contiene 50 hojas de papel bond de alta calidad impresas a todo color, con espacios de notas, prioridades y tracker de hábitos.",
         images: [
             "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
-            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "https://tse1.mm.bing.net/th/id/OIP.8m7uGkNi_qGkQzLa4kEwXQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+            "https://tse1.mm.bing.net/th/id/OIP.8m7uGkNi_qGkQzLa4kEwXQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500"
         ]
     },
     {
