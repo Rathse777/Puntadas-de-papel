@@ -9,7 +9,7 @@ const PRODUCTS = [
         images: [
             "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
             "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "https://images.unsplash.com/photo-1606148003664-07d084f7efd0?w=500"
+            "file:///C:/Users/Raths/.vscode/Puntadas%20de%20Papel/Fotos%20de%20los%20productos/escritorio-cuaderno-pluma-pluma_946757-4171.jpg"
         ]
     },
     {
