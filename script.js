@@ -8,8 +8,7 @@ const PRODUCTS = [
         description: "Organiza tus semanas de la forma más linda. Contiene 50 hojas de papel bond de alta calidad impresas a todo color, con espacios de notas, prioridades y tracker de hábitos.",
         images: [
             "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
-            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "file:///C:/Users/Raths/.vscode/Puntadas%20de%20Papel/Fotos%20de%20los%20productos/escritorio-cuaderno-pluma-pluma_946757-4171.jpg"
+            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500"
         ]
     },
     {
