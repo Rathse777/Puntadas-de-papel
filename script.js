@@ -2,10 +2,10 @@
 const PRODUCTS = [
     {
         id: 1,
-        name: "Guantes de huellas de gatito tejidos",
-        price: 6.00,
+        name: "Guantes de patas de gatito tejidos para jóvenes",
+        price: 7.00,
         category: "Atuendos a Crochet",
-        description: "Prenda de punto suave y elástica de excelente calce. Ajustable en la espalda, perfecta para climas frescos o looks veraniegos coquetos.",
+        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. /n Disponible en color negro, crema, blanco y rosa. Tamaño ",
         images: [
             "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500",
             "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
@@ -14,22 +14,34 @@ const PRODUCTS = [
     },
     {
         id: 2,
-        name: "Álbum de Figuritas Kpop Demon-Hunters",
-        price: 6.00,
-        category: "Papelería",
-        description: "Organiza tus semanas de la forma más linda. Contiene 50 hojas de papel bond de alta calidad impresas a todo color, con espacios de notas, prioridades y tracker de hábitos.",
+        name: "Guantes de patas de gatito tejidos para niñas",
+        price: 4.00,
+        category: "Atuendos a Crochet",
+        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. /n Disponible en color blanco y rosa.",
         images: [
-            "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
-            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "file:///C:/Users/Raths/.vscode/Puntadas%20de%20Papel/Fotos%20de%20los%20productos/escritorio-cuaderno-pluma-pluma_946757-4171.jpg"
+            "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500",
+            "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
+            "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
         ]
     },
     {
         id: 3,
+        name: "Álbum de Figuritas Kpop Demon-Hunters",
+        price: 6.00,
+        category: "Papelería",
+        description: "Revivie los momentos más inolvidables de la película más taquillera del año. Contiene 50 páginas /n Tamaño A5, 32 hojas, con capacidad para 160 figuritas coleccionables",
+        images: [
+            "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
+            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
+            "C:\Users\Raths\.vscode\Puntadas de Papel\Fotos de los productos\escritorio-cuaderno-pluma-pluma_946757-4171.jpg"
+        ]
+    },
+    {
+        id: 4,
         name: "Paquete de 32 figuritas Kpop Demon-Hunters",
         price: 21.00,
         category: "Papelería",
-        description: "Hecha 100% a mano con cuerina y forro de seda. Ideal para salidas casuales. Súper espaciosa, forrada por dentro y con broche imantado para máxima seguridad.",
+        description: "Cada paquete trae 5 figuritas de un tamaño.",
         images: [
             "https://images.unsplash.com/photo-1590736704728-f4730bb3c3af?w=500",
             "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500",
@@ -37,7 +49,7 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "Top Tejido Rosa Pastel",
         price: 30.00,
         category: "Atuendos a Crochet",
@@ -49,7 +61,7 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Conejo Amigurumi",
         price: 15.00,
         category: "Peluches",
@@ -61,7 +73,7 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: "Cartera Lavanda",
         price: 22.50,
         category: "Bolsos y Accesorios",
