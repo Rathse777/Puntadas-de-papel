@@ -33,7 +33,7 @@ const PRODUCTS = [
         images: [
             "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
             "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "escritorio-4171.jpg"
+            "imagenes/escritorio-4171.jpg"
         ]
     },
     {
