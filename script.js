@@ -31,9 +31,6 @@ const PRODUCTS = [
         category: "Papelería",
         description: "Revivie los momentos más inolvidables de la película más taquillera del año. Contiene 50 páginas /n Tamaño A5, 32 hojas, con capacidad para 160 figuritas coleccionables",
         images: [
-            "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500",
-            "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500",
-            "imagenes/escritorio-4171.jpg"
         ]
     },
     {
@@ -43,9 +40,6 @@ const PRODUCTS = [
         category: "Papelería",
         description: "Cada paquete trae 5 figuritas de un tamaño.",
         images: [
-            "https://images.unsplash.com/photo-1590736704728-f4730bb3c3af?w=500",
-            "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500",
-            "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500"
         ]
     },
     {
@@ -55,9 +49,6 @@ const PRODUCTS = [
         category: "Atuendos a Crochet",
         description: "Prenda de punto suave y elástica de excelente calce. Ajustable en la espalda, perfecta para climas frescos o looks veraniegos coquetos.",
         images: [
-            "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500",
-            "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
-            "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
         ]
     },
     {
@@ -67,9 +58,6 @@ const PRODUCTS = [
         category: "Peluches",
         description: "Un tierno compañero tejido con la técnica amigurumi. Relleno suave y esponjoso con ojos de seguridad. El regalo perfecto para cualquier edad.",
         images: [
-            "https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?w=500",
-            "https://images.unsplash.com/photo-1559251606-c623743a6d76?w=500",
-            "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=500"
         ]
     },
     {
@@ -79,9 +67,6 @@ const PRODUCTS = [
         category: "Bolsos y Accesorios",
         description: "Hecha 100% a mano con cuerina y forro de seda. Ideal para salidas casuales. Súper espaciosa, forrada por dentro y con broche imantado para máxima seguridad.",
         images: [
-            "https://images.unsplash.com/photo-1590736704728-f4730bb3c3af?w=500",
-            "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500",
-            "https://images.unsplash.com/photo-1544816155-12df9643f363?w=500"
         ]
     },
 ];
