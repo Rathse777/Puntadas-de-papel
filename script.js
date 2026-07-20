@@ -7,8 +7,8 @@ const PRODUCTS = [
         category: "Atuendos a Crochet",
         description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. /n Disponible en color negro, crema, blanco y rosa. Tamaño ",
         images: [
-            "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500",
-            "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
+            "imagenes/GuantesNegros.png",
+            "imagenes/GuantesBlancos.png",
             "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
         ]
     },
@@ -19,7 +19,7 @@ const PRODUCTS = [
         category: "Atuendos a Crochet",
         description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. /n Disponible en color blanco y rosa.",
         images: [
-            "C:\Users\Raths\.vscode\Puntadas de Papel\Fotos de los productos\escritorio-cuaderno-pluma-pluma_946757-4171.jpg",
+            "imagenes/GuantesRosas.png",
             "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
             "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
         ]
