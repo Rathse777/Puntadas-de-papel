@@ -9,7 +9,7 @@ const PRODUCTS = [
         images: [
             "imagenes/GuantesNegros.png",
             "imagenes/GuantesBlancos.png",
-            "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
+            "imagenes/GuantesBlancosyNegros.jpeg"
         ]
     },
     {
@@ -20,8 +20,8 @@ const PRODUCTS = [
         description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. /n Disponible en color blanco y rosa.",
         images: [
             "imagenes/GuantesRosas.png",
-            "https://images.unsplash.com/photo-1517231922316-a9d8d510c44b?w=500",
-            "https://images.unsplash.com/photo-1574169208507-84376144848b?w=500"
+            "imagenes/GuantesRosasPuestos1.jpeg",
+            "imagenes/GuantesRosasPuestos2.jpeg"
         ]
     },
     {
