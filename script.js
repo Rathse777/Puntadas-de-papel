@@ -31,6 +31,9 @@ const PRODUCTS = [
         category: "Papelería",
         description: "Revivie los momentos más inolvidables de la película más taquillera del año. Contiene 50 páginas /n Tamaño A5, 32 hojas, con capacidad para 160 figuritas coleccionables",
         images: [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -40,6 +43,9 @@ const PRODUCTS = [
         category: "Papelería",
         description: "Cada paquete trae 5 figuritas de un tamaño.",
         images: [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -49,6 +55,9 @@ const PRODUCTS = [
         category: "Atuendos a Crochet",
         description: "Prenda de punto suave y elástica de excelente calce. Ajustable en la espalda, perfecta para climas frescos o looks veraniegos coquetos.",
         images: [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -58,6 +67,9 @@ const PRODUCTS = [
         category: "Peluches",
         description: "Un tierno compañero tejido con la técnica amigurumi. Relleno suave y esponjoso con ojos de seguridad. El regalo perfecto para cualquier edad.",
         images: [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -67,6 +79,9 @@ const PRODUCTS = [
         category: "Bolsos y Accesorios",
         description: "Hecha 100% a mano con cuerina y forro de seda. Ideal para salidas casuales. Súper espaciosa, forrada por dentro y con broche imantado para máxima seguridad.",
         images: [
+            "",
+            "",
+            ""
         ]
     },
 ];
