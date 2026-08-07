@@ -5,8 +5,7 @@ const PRODUCTS = [
         name: "Guantes de patas de gatito tejidos para jóvenes",
         price: 7.00,
         category: "Atuendos a Crochet",
-        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos.", 
-            "Disponible en color negro, crema, blanco y rosa. Tamaño ",
+        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. \n Disponible en color negro, crema, blanco y rosa. Tamaño ",
         images: [
             "imagenes/GuantesNegros.png",
             "imagenes/GuantesBlancos.png",
