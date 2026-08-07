@@ -5,7 +5,7 @@ const PRODUCTS = [
         name: "Guantes de patas de gatito tejidos para jóvenes",
         price: 7.00,
         category: "Atuendos a Crochet",
-        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos." \n "Disponible en color negro, crema, blanco y rosa. Tamaño ",
+        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. \n \n Disponible en color negro, crema, blanco y rosa. Tamaño ",
         images: [
             "imagenes/GuantesNegros.png",
             "imagenes/GuantesBlancos.png",
@@ -17,7 +17,7 @@ const PRODUCTS = [
         name: "Guantes de patas de gatito tejidos para niñas",
         price: 4.00,
         category: "Atuendos a Crochet",
-        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. Disponible en color blanco y rosa.",
+        description: "Guantes hechos de estambre acrílico suave y elástica de excelente calce. Para manos delgadas, perfecta para climas frescos o looks de invierno coquetos. \n \n Disponible en color blanco y rosa.",
         images: [
             "imagenes/GuantesRosas.png",
             "imagenes/GuantesRosasPuestos1.jpeg",
@@ -29,7 +29,7 @@ const PRODUCTS = [
         name: "Álbum de Figuritas Kpop Demon-Hunters",
         price: 6.00,
         category: "Papelería",
-        description: "Revivie los momentos más inolvidables de la película más taquillera del año. Contiene 50 páginas Tamaño A5, 32 hojas, con capacidad para 160 figuritas coleccionables",
+        description: "Revivie los momentos más inolvidables de la película más taquillera del año. \n \n Contiene 50 páginas Tamaño A5, 32 hojas, con capacidad para 160 figuritas coleccionables",
         images: [
             "",
             "",
